@@ -9,19 +9,27 @@
       <mobile-menu slot="content"></mobile-menu>
       <sidebar-link to="/dashboard">
         <md-icon>dashboard</md-icon>
-        <p>Dashboard</p>
+        <p>Inicio</p>
       </sidebar-link>
       <sidebar-link to="/user">
         <md-icon>person</md-icon>
-        <p>User Profile</p>
+        <p>Perfil del Usuario</p>
       </sidebar-link>
       <sidebar-link to="/table">
         <md-icon>content_paste</md-icon>
-        <p>Table list</p>
+        <p>Catàlogos</p>
       </sidebar-link>
       <sidebar-link to="/typography">
         <md-icon>library_books</md-icon>
-        <p>Typography</p>
+        <p>Productos</p>
+      </sidebar-link>
+       <sidebar-link to="/">
+        <md-icon>library_books</md-icon>
+        <p>Ingresos</p>
+      </sidebar-link>
+       <sidebar-link to="/">
+        <md-icon>library_books</md-icon>
+        <p>Egresos</p>
       </sidebar-link>
       <sidebar-link to="/icons">
         <md-icon>bubble_chart</md-icon>
@@ -35,10 +43,7 @@
         <md-icon>notifications</md-icon>
         <p>Notifications</p>
       </sidebar-link>
-      <sidebar-link to="/upgrade" class="active-pro">
-        <md-icon>unarchive</md-icon>
-        <p>Upgrade to PRO</p>
-      </sidebar-link>
+
     </side-bar>
 
     <div class="main-panel">
