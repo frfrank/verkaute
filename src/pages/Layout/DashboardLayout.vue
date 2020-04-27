@@ -23,11 +23,11 @@
         <md-icon>library_books</md-icon>
         <p>Productos</p>
       </sidebar-link>
-       <sidebar-link to="/">
+      <sidebar-link to="/">
         <md-icon>library_books</md-icon>
         <p>Ingresos</p>
       </sidebar-link>
-       <sidebar-link to="/">
+      <sidebar-link to="/">
         <md-icon>library_books</md-icon>
         <p>Egresos</p>
       </sidebar-link>
@@ -43,7 +43,6 @@
         <md-icon>notifications</md-icon>
         <p>Notifications</p>
       </sidebar-link>
-
     </side-bar>
 
     <div class="main-panel">

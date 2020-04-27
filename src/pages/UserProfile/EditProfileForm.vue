@@ -2,8 +2,8 @@
   <form>
     <md-card>
       <md-card-header :data-background-color="dataBackgroundColor">
-        <h4 class="title">Edit Profile</h4>
-        <p class="category">Complete your profile</p>
+        <h4 class="title">Editar Perfil</h4>
+        <p class="category">Complete su Perfil</p>
       </md-card-header>
 
       <md-card-content>
@@ -16,7 +16,7 @@
           </div>
           <div class="md-layout-item md-small-size-100 md-size-33">
             <md-field>
-              <label>User Name</label>
+              <label>Nombre de Usuario</label>
               <md-input v-model="username" type="text"></md-input>
             </md-field>
           </div>
@@ -28,19 +28,19 @@
           </div>
           <div class="md-layout-item md-small-size-100 md-size-50">
             <md-field>
-              <label>First Name</label>
+              <label>Nombre</label>
               <md-input v-model="firstname" type="text"></md-input>
             </md-field>
           </div>
           <div class="md-layout-item md-small-size-100 md-size-50">
             <md-field>
-              <label>Last Name</label>
+              <label>Apellidos</label>
               <md-input v-model="lastname" type="text"></md-input>
             </md-field>
           </div>
           <div class="md-layout-item md-small-size-100 md-size-100">
             <md-field>
-              <label>Adress</label>
+              <label>Direcciòn</label>
               <md-input v-model="address" type="text"></md-input>
             </md-field>
           </div>
@@ -69,7 +69,7 @@
             </md-field>
           </div>
           <div class="md-layout-item md-size-100 text-right">
-            <md-button class="md-raised md-success">Update Profile</md-button>
+            <md-button class="md-raised md-success">Editar Perfl</md-button>
           </div>
         </div>
       </md-card-content>
