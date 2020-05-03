@@ -8,6 +8,7 @@ import Icons from "@/pages/Icons.vue";
 import Maps from "@/pages/Maps.vue";
 import Notifications from "@/pages/Notifications.vue";
 import UpgradeToPRO from "@/pages/UpgradeToPRO.vue";
+import Category from "@/views/CategoryView.vue";
 
 const routes = [
   {
@@ -57,6 +58,11 @@ const routes = [
         path: "upgrade",
         name: "Upgrade to PRO",
         component: UpgradeToPRO
+      },
+      {
+        path: "category",
+        name: "category",
+        component: Category
       }
     ]
   }

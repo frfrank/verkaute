@@ -1,18 +1,38 @@
 {
-    "GET /api/items": [
-      {
-        "id": 1,
-        "name": "Item 1"
-      },
-      {
-        "id": 2,
-        "name": "Item 2"
-      }
-    ],
-  
-    "GET /api/user": {
+  "GET /api/items": [
+    {
       "id": 1,
-      "name": "Rafaela Carrá",
-      "job": "Wonderful singer"
+      "name": "Item 1"
+    },
+    {
+      "id": 2,
+      "name": "Item 2"
     }
-  }
+  ],
+
+  "GET /api/user": {
+    "id": 1,
+    "name": "Rafaela Carrá",
+    "job": "Wonderful singer"
+  },
+  "GET /api/category/list": [
+    {
+      "id": 1,
+      "name": "Lacteos",
+      "description": "Todo Tipo de Lacteos",
+      "state": 1
+    },
+    {
+      "id": 2,
+      "name": "Granos Basicos",
+      "description": "Todo Tipo de Granos Basicos",
+      "state": 1
+    },
+    {
+      "id": 3,
+      "name": "Granos Basicos",
+      "description": "Todo Tipo de Granos Basicos",
+      "state": 1
+    }
+  ]
+}

@@ -15,9 +15,9 @@
         <md-icon>person</md-icon>
         <p>Perfil del Usuario</p>
       </sidebar-link>
-      <sidebar-link to="/table">
+      <sidebar-link to="/category">
         <md-icon>content_paste</md-icon>
-        <p>Catàlogos</p>
+        <p>Categoria</p>
       </sidebar-link>
       <sidebar-link to="/typography">
         <md-icon>library_books</md-icon>
