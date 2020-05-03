@@ -4,13 +4,18 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --open",
-    "dev": "npm run serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "dev": "npm run serve",
+    "electron:build": "vue-cli-service electron:build",
+    "electron:serve": "vue-cli-service electron:serve",
+    "postinstall": "electron-builder install-app-deps",
+    "postuninstall": "electron-builder install-app-deps"
   },
+  "main": "background.js",
   "dependencies": {
-    "core-js": "3.6.4",
     "chartist": "0.11.4",
+    "core-js": "3.6.4",
     "google-maps": "4.2.3",
     "vue": "2.6.11",
     "vue-clickaway": "2.2.2",
@@ -26,13 +31,15 @@
     "@vue/cli-service": "4.2.3",
     "@vue/eslint-config-prettier": "6.0.0",
     "babel-eslint": "10.1.0",
+    "electron": "^6.0.0",
+    "es6-promise": "4.2.8",
     "eslint": "6.8.0",
     "eslint-plugin-prettier": "3.1.2",
     "eslint-plugin-vue": "6.2.2",
-    "es6-promise": "4.2.8",
     "prettier": "1.19.1",
     "sass": "1.26.2",
     "sass-loader": "8.0.2",
+    "vue-cli-plugin-electron-builder": "~1.4.6",
     "vue-template-compiler": "2.6.11"
   }
 }

@@ -3,3 +3,6 @@ dist/
 package-lock.json
 /docs
 /dist
+
+#Electron-builder output
+/dist_electron

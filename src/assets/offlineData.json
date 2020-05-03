@@ -1,0 +1,18 @@
+{
+    "GET /api/items": [
+      {
+        "id": 1,
+        "name": "Item 1"
+      },
+      {
+        "id": 2,
+        "name": "Item 2"
+      }
+    ],
+  
+    "GET /api/user": {
+      "id": 1,
+      "name": "Rafaela Carrá",
+      "job": "Wonderful singer"
+    }
+  }
